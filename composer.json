@@ -1,0 +1,20 @@
+{
+	"name": "threaded-mailparser",
+	"description": "threaded-Multi threaded command line mail parser written in PHP",
+	"license": "Copyright 2015",
+	"authors": [
+		{
+			"name": "Classy Geeks llc.",
+			"email": "support@classygeeks.com"
+		}
+	],
+	"type": "project",
+	"require": {
+		"exorus/php-mime-mail-parser": "1.7.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/"
+		}
+	}
+}
